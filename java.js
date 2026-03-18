@@ -8,9 +8,16 @@ function add(input){
 }
 
 function limpar(){
-
+    display.value = "";
+    currentInput = "";
+    display.textContent = display.value;
 }
 
 function calcula(){
-
+    try{
+        display.textContent = eval(display.textContent);
+    }
+    catch(error){
+        display.textContent = "Error"
+    }
 }
