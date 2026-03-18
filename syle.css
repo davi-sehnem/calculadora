@@ -45,6 +45,7 @@ button:active{
     text-align: left;
     border: none;
     background-color: rgba(121, 121, 121, 0.418);
+    color: white;
 }
 
 .operador{
